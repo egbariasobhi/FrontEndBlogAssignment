@@ -10,13 +10,16 @@ import { useContext } from "react";
 export const HomePage = () => {
   const { data } = useContext(BlogContext);
 
+  // the slice method: to sent the last 3 blogs that will show in the home page for every category
   return (
     <div id="HomePage">
       <NavBar />
+
       <HomePageHeaderContent
         title="Minimal blog template for creative expressions"
         description="100% customisable and SEO-friendly blog template for personal and commercial purposes."
       />
+
       <ViewAllButton title="Daily Digest" />
       <ListOfBlogs data={data.slice(0, 3)} />
 
@@ -25,7 +28,9 @@ export const HomePage = () => {
 
       <ViewAllButton title="Tutorials" />
       <ListOfBlogs data={data.slice(6, 9)} />
+
       <Contacts />
+
       <CopyRight />
     </div>
   );

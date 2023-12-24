@@ -14,10 +14,12 @@ export const SingleBlogPage = () => {
   const params = useParams();
   const id = parseInt(params.id);
 
+  // get a specific blog by id to send the blog properties to (SingleBlogPageHeader) component
   const blog = data.find((item) => {
     return item.id === id;
   });
 
+  // in the return i used slice method to sent the last 3 blogs (not the hole blogs)
   return (
     <>
       <NavBar />

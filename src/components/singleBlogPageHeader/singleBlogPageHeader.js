@@ -12,7 +12,7 @@ export const SingleBlogPageHeader = ({
     deleteBlogById(id);
   };
 
-  // go to the top of the page to show the right content
+  // go to the top of the page to see the right content
   const handelScroll = () => {
     window.scrollTo(0, 100);
   };

@@ -27,7 +27,7 @@ export const AddAndEditBlog = ({
 
   const handleOnClickAddBlog = () => {
     addBlog({
-      id: Date.now(),
+      id: Date.now(), //using Date.now() to ge a unique id
       title: newBlogTitle,
       date: new Date().toLocaleDateString("en-ZA"),
       description: newBlogDescription,
@@ -84,7 +84,7 @@ export const AddAndEditBlog = ({
               ></textarea>
             </div>
             <button
-              // to pik create or edit blog
+              // to pik createBlog or editBlog
               onClick={
                 buttonText === "Create Blog"
                   ? handleOnClickAddBlog

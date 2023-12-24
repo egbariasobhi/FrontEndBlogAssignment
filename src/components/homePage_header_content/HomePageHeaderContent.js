@@ -1,5 +1,6 @@
 import "./HomePageHeaderContent.css";
 
+// this component of the heder content just for the home page.
 export const HomePageHeaderContent = ({ title, description }) => {
   return (
     <>
