@@ -1,0 +1,56 @@
+.singlePageContainer {
+  margin: 10px 80px;
+  max-width: 1480px;
+  height: 800px;
+  top: 502px;
+  padding: 0px, 250px, 100px, 250px;
+  gap: 10px;
+  display: grid;
+}
+.singlePageContainer .singlePageImg {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  margin: 20px 290px;
+}
+.singlePageContainer .title {
+  background-color: red;
+  text-align: center;
+  font-family: "Graphik Trial", sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+  background: -webkit-linear-gradient(7.1deg, #c41740 4.8%, #ea9c28 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px 0px;
+}
+
+.singlePageContainer .title h2 {
+  color: white;
+}
+.singlePageContainer .singlePageDescription {
+  color: black;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.edit_remove_icons {
+  width: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit_remove_icons i {
+  font-size: 35px;
+
+  color: grey;
+}
+
+.edit_remove_icons i:hover {
+  font-size: 35px;
+  cursor: pointer;
+  color: red;
+}

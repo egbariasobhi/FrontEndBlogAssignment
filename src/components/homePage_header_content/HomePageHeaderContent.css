@@ -1,0 +1,60 @@
+@import url("https://fonts.cdnfonts.com/css/graphik-trial");
+* {
+  font-family: "Graphik Trial", sans-serif;
+}
+.home_Page_Header_Content {
+  max-width: 1480px;
+  max-height: 566px;
+  top: 84px;
+  padding: 120px, 255px, 80px, 255px;
+  gap: 10px;
+}
+.home_page_content_frame {
+  width: 970px;
+  max-height: 366px;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  margin: 10% auto 5% auto;
+}
+.hi_button {
+  width: 190px;
+  height: 80px;
+  padding: 20px, 26px, 20px, 26px;
+  border-radius: 100px;
+  gap: 10px;
+  background: rgba(242, 244, 247, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.home_page_content_frame .title {
+  width: fit-content;
+  height: fit-content;
+}
+
+.home_page_content_frame h1 {
+  font-family: "Graphik Trial", sans-serif;
+  font-weight: 700px;
+  font-size: 66px;
+  background: -webkit-linear-gradient(7.1deg, #c41740 4.8%, #ea9c28 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home_page_content_frame .description {
+  width: 690px;
+  height: 84px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.home_page_content_frame p {
+  font-weight: 400px;
+  font-size: 28px;
+  line-height: 42px;
+  color: rgba(71, 84, 103, 1);
+}

@@ -1,0 +1,15 @@
+.cards_section {
+  max-width: 1480px;
+  height: fit-content;
+  top: 479px;
+  padding: 80px, 250px, 180px, 250px;
+  gap: 10px;
+  background: rgba(242, 244, 247, 1);
+}
+.list_container {
+  max-width: 980px;
+  height: fit-content;
+  border-radius: 8px;
+  margin: auto;
+  padding: 30px 0px 30px 0px;
+}
