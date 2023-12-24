@@ -14,6 +14,7 @@ export const AddAndEditBlog = ({
   const navigate = useNavigate();
   const { addBlog, editBlogById } = useContext(BlogContext);
 
+  // the useState start with default value of title and description of the chosen blog. to show the user the content in the form, to help him edit easily
   const [newBlogTitle, setNewBlogTitle] = useState(title);
   const [newBlogDescription, setNewBlogDescription] = useState(description);
 
